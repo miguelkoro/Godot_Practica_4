@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://iu82oq8ybmqi"
-path="res://.godot/imported/background_layer_1.png-d96ad997e22bb3f882990f08e77f9772.ctex"
+uid="uid://chg2pyn8bqcur"
+path="res://.godot/imported/cabinets_LRK.png-2eadfb9276be4822fa8f132fc9db47b9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/background_layer_1.png"
-dest_files=["res://.godot/imported/background_layer_1.png-d96ad997e22bb3f882990f08e77f9772.ctex"]
+source_file="res://Sprites/cabinets_LRK.png"
+dest_files=["res://.godot/imported/cabinets_LRK.png-2eadfb9276be4822fa8f132fc9db47b9.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ck2vcpkiy4j17"
-path="res://.godot/imported/TX Village Props_s.png-b767bea6f0a536ff8e1032a3b62cd6e2.ctex"
+uid="uid://2t8l5duahv87"
+path="res://.godot/imported/doorswindowsstairs_LRK.png-3950c76e146511e65add846821ae846a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/TX Village Props_s.png"
-dest_files=["res://.godot/imported/TX Village Props_s.png-b767bea6f0a536ff8e1032a3b62cd6e2.ctex"]
+source_file="res://Sprites/doorswindowsstairs_LRK.png"
+dest_files=["res://.godot/imported/doorswindowsstairs_LRK.png-3950c76e146511e65add846821ae846a.ctex"]
 
 [params]
 

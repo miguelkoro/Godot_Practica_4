@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ck501lik1wxq2"
-path="res://.godot/imported/TX FX Flame.png-c02b372d9e92d7810e0a3d6da0496859.ctex"
+uid="uid://doj0ncrqpayc6"
+path="res://.godot/imported/kitchen_LRK.png-fc96e8038ea187bf46a9cf1d677ff3cf.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/TX FX Flame.png"
-dest_files=["res://.godot/imported/TX FX Flame.png-c02b372d9e92d7810e0a3d6da0496859.ctex"]
+source_file="res://Sprites/kitchen_LRK.png"
+dest_files=["res://.godot/imported/kitchen_LRK.png-fc96e8038ea187bf46a9cf1d677ff3cf.ctex"]
 
 [params]
 
