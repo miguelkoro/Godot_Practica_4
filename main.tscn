@@ -1,4 +1,4 @@
-[gd_scene load_steps=51 format=3 uid="uid://c4bxkh4myhwid"]
+[gd_scene load_steps=52 format=3 uid="uid://c4bxkh4myhwid"]
 
 [ext_resource type="Texture2D" uid="uid://iu82oq8ybmqi" path="res://Sprites/background_layer_1.png" id="1_7mycd"]
 [ext_resource type="Texture2D" uid="uid://dd6qoglcfhkym" path="res://Sprites/background_layer_2.png" id="2_272bh"]
@@ -280,6 +280,9 @@ fill = 1
 fill_from = Vector2(0.4813084, 0.48598132)
 fill_to = Vector2(0.8317757, 0.1635514)
 
+[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_kek77"]
+polygon = PackedVector2Array(-132, -111, -94, -123, -41, -118, 34, -112, 103, -125, 135, -110, 73, -108, -39, -105, -103, -108)
+
 [sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_5vw27"]
 polygon = PackedVector2Array(7.19697, -17.424244, 8.333334, -17.424244, 9.09091, -16.666668, 8.333334, -15.909092, 9.09091, -14.772729, 9.09091, -14.015153, 11.363637, -14.393941, 11.363637, -13.257577, 10.606061, -12.878789, 10.227273, -10.98485, 9.469698, -9.848486, 11.363637, -9.848486, 13.636365, -9.848486, 14.772729, -9.09091, 13.636365, -8.712122, 13.257577, -7.954546, 10.606061, -7.954546, 9.848486, -7.575758, 9.469698, -6.060607, 10.227273, -4.545455, 10.606061, -2.6515155, 9.848486, -1.8939395, 9.09091, -0.75757587, 8.333334, 0.37878788, 7.954546, 2.2727275, 8.712122, -4.924243, 8.333334, -8.333334, 8.333334, -12.878789)
 
@@ -338,14 +341,18 @@ texture = SubResource("GradientTexture2D_272bh")
 height = 229.0
 
 [node name="DirectionalLight2D" type="DirectionalLight2D" parent="."]
-visible = false
 modulate = Color(0.23300803, 0.16588232, 0.9205418, 1)
-position = Vector2(-55, -112)
+position = Vector2(-29, -111.00001)
 rotation = 6.658431
 color = Color(0.26514804, 0.026675794, 0.5244355, 1)
 range_z_min = -1025
 range_z_max = 1020
 shadow_enabled = true
+
+[node name="LightOccluder2D" type="LightOccluder2D" parent="DirectionalLight2D"]
+position = Vector2(92.2211, 84.04921)
+rotation = -0.37524575
+occluder = SubResource("OccluderPolygon2D_kek77")
 
 [node name="RigidBody2D" type="RigidBody2D" parent="."]
 position = Vector2(20, -9)
